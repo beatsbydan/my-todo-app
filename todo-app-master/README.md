@@ -8,8 +8,7 @@
 
 <div align="center">
   <h3>
-    <span> | </span>
-    <a href="https://beatsbydan.github.io/">
+    <a href="https://beatsbydan.github.io/my-todo-app">
       Solution
     </a>
     <span> | </span>
