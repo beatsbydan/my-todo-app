@@ -1,0 +1,95 @@
+.todoApp{
+    width: 90%;
+    max-width: 700px;
+    margin: 4em auto;
+}
+.todoApp h1{
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: -0.15rem;
+}
+.navBar{
+    width: 100%;
+    margin: 1.5em auto 0 auto;
+    border-bottom: 0.1rem solid #BDBDBD;
+}
+.nav{
+    width: 85%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.myTab{
+    width: 20%;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.currentTab{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.currentTab::after{
+    position: absolute;
+    display: inline-flex;
+    content: '';
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    background-color: #2F80ED;
+    border-radius: 0.1px;
+}
+.myForm{
+    margin-top: 1em;
+}
+.myForm form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    align-items: center;
+    grid-gap: 5%;
+}
+.formElement{
+    width: 100%;
+}
+.formElement input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #BDBDBD;
+}
+.formElement input:focus, .formAction button:focus{
+    outline: none;
+}
+.formElement input::placeholder{
+    color: #BDBDBD;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.formEAction{
+    width: 100%;
+}
+.formAction button{
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    background-color:#2F80ED ;
+    border: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.todoItems{
+    margin-top: 1.7em;
+}
